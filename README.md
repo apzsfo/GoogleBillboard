@@ -13,7 +13,7 @@ Suggested steps to complete the assignment
 3. Now you are ready to start the project. Fork and clone down this repository
 3. In `setup()` use `String substring(int beginIndex,int endIndex)` to pull out ten consecutive digits of e at a time. Convert them to doubles with `Double.parseDouble()`. Here's an example:  
      `String digits = e.substring(2,12);`   
-     `double dNum = Double.parseDouble(digits);`   
+    w `double dNum = Double.parseDouble(digits);`   
      `System.out.println(dNum);  //displays 7.182818284E9`  
 Note that by default, Java displays doubles in exponential form. `7.182818284E9` is 7.182818284 x 10^9.
 5. Finish the  `isPrime()`  to test if a number is prime.
